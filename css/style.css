@@ -188,6 +188,7 @@ body {
 	margin: -130px 0 32px 0;
 	position: relative;
 	padding: 0 0 0 36px;
+	z-index: 5;
 }
 .content-impact__title::before {
 	content: "";
@@ -205,6 +206,8 @@ body {
 	line-height: 42px;
 	max-width: 411px;
 	margin: 0 0 79px 0;
+	position: relative;
+	z-index: 5;
 }
 .items-impact {
 	display: flex;
